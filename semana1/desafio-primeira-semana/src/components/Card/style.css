@@ -1,0 +1,30 @@
+.card{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-check{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.card-check input{
+    cursor: pointer;
+}
+
+.card-check h3{
+    font-size: 1.5rem;
+}
+
+.bin{
+    fill: #FF0000;
+    cursor: pointer;
+    scale: 1.2;
+
+    :hover{
+        scale: 0.9;
+    }
+}
